@@ -1,0 +1,89 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8cd3ff;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  max-width: 100%;
+}
+
+h1 {
+  text-size-adjust: 100px;
+  text-align: center;
+  color: #333;
+}
+
+input {
+  width: calc(100% - 90px);
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.book-list {
+  margin-top: 20px;
+}
+
+.book {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.book img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.book h2 {
+  margin: 0 0 10px;
+  color: #007BFF;
+}
+
+.book p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.book-details {
+  display: flex;
+  align-items: center;
+}
+
+.book-details img {
+  margin-right: 20px;
+}
+
+.book-details div {
+  flex: 1;
+}
+

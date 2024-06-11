@@ -1,0 +1,31 @@
+/* src/components/BookDetail.css */
+
+.book {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .book-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .book-details img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .book-details div {
+    flex: 1;
+  }
+  
+  .book h2 {
+    margin: 0 0 10px;
+    color: #007BFF;
+  }
+  
+  .book p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
